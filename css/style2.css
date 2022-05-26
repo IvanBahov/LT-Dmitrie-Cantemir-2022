@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap');
+
+:root {
+    --primary: white;
+    --secondary: #21ce21;
+    --text: #1D1D1D;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+body {
+    margin: 0px;
+    color: var(--text);
+}
+
+header {
+    padding: 7px 50px 5px 5px;
+    background-color: #86868683;
+    position: fixed;
+    z-index: 2;
+
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+header img {
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav {
+    float: right;
+    padding-top: 10px;
+}
+
+.nav a {
+    color: var(--primary);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-family: Kanit;
+}
+
+.nav a:hover {
+    color: var(--secondary);
+}
+
+h1 {
+    font-family: Kanit;
+    font-size: 2rem;
+}
+
+#intro {
+    min-height: 100vh;
+    background: linear-gradient(#4141413f, #4141413f), url("../images/index.jpg");
+    background-size: cover;
+    color: var(--primary);
+    position: relative;
+}
+
+.intro-content {
+    padding-top: 22vh;
+    padding-left: 8%;
+}
+
+.intro-content h1 {
+    font-size: 3rem;
+    margin-top: 0px;
+    margin-bottom: -15px;
+}
+
+.logo {
+    height: 90px;
+    border-radius: 50%;
+}
+
+.custom-shape-divider-bottom-1648225570 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1648225570 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1648225570 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+main section {
+    padding: 70px 15% 5px 15%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.intro-btn {
+    display: inline-block;
+    background-color: #ffffff3d;
+    padding: 12px 10px;
+    margin-right: 15px;
+    border-radius: 4px;
+    border: 2px solid #ffffff86;
+
+    backdrop-filter: blur(5px);
+    color: var(--primary);
+}
+
+.intro-btn:hover{
+    filter: opacity(0.85);
+}
+
+#despre-btn {
+    background-color: #66f05a67;
+}
